@@ -1,41 +1,69 @@
 <!doctype html>
-<html lang="pt-BR">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sobre Mim</title>
+    <title>Sobre</title>
   </head>
   <body>
-    <header>
-      <h1>Sobre Mim:</h1>
-      <nav>
-        <ul>
-          <li>
-            <a
-              href="https://refactored-fortnight-6vgrxw79pg7rc4pgg-5500.app.github.dev/desafio1.html"
-              >desafio 1</a
-            >
-          </li>
-        </ul>
-      </nav>
-    </header>
+    <h1>Sobre</h1>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae ad
+      veniam assumenda fugiat obcaecati cumque, a adipisci dolores eos ducimus
+      architecto vero, similique accusamus fugit reiciendis sequi ipsam eum
+      dicta.
+    </p>
 
-    <main>
-      <p>
-        Meu nome é Débora Hellen dos Santos Araújo, tenho 15 anos e faço
-        primeiro ano no curso técnico de informática no IFRN. Nasci em Natal no
-        dia 21 de janeiro de 2011,mas atualmente moro em Diogo Lopes. Sou uma
-        pessoa extrovertida, engraçada, e tímida algumas vezes. Gosto de ouvir
-        músicas, assistir séries e gosto de aproveitar meu tempo livre fazendo
-        coisas que eu goste. Também gosto de mexer nas redes sociais e aprender
-        coisas novas. Escolhi o curso de informática porque desde sempre tive
-        interesse por tecnologia. Apesar das circunstância, estou aprendendo com
-        meus erros e adquirindo novos conhecimentos. Tenho sonhos e obetivos,
-        mas, acredito que com minha dedicação e esforço, eu consigo conquistar
-        tudo aquilo que eu almejo.
-      </p>
-    </main>
+    <section>
+      <h2>Envie uma mensagem</h2>
+      <form action="#">
+        <label for="nome">Nome completo:</label><br />
+        <input type="text" id="nome" name="nome" /><br />
 
-    <footer>IFRN CAMPUS MACAU</footer>
+        <label for="senha">Senha:</label><br />
+        <input type="password" name="senha" id="senha" /><br />
+
+        <!-- Botões de rádio -->
+        <p>Brasil vai ser campeão?</p>
+
+        <input type="radio" id="sim" name="brasil" value="Sim" />
+        <label for="sim">Sim</label>
+        <input type="radio" id="nao" name="brasil" value="Não" />
+        <label for="nao">Não</label>
+        <br />
+
+        <!-- Caixas de seleção -->
+        <p>Selecione as seleções favoritas ao título de 2026:</p>
+
+        <input type="checkbox" id="brasil" name="brasil" value="Brasil" />
+        <label for="brasil">Brasil</label>
+        <input type="checkbox" id="franca" name="franca" value="França" />
+        <label for="franca">França</label>
+        <input type="checkbox" id="alemanha" name="alemanha" value="Alemanha" />
+        <label for="alemanha">Alemanha</label>
+        <input type="checkbox" id="ned" name="ned" value="Países Baixos" />
+        <label for="ned">Países Baixos</label>
+
+        <br />
+
+        <!-- Área de texto -->
+        <label for="mensagem">Mensagem:</label><br />
+        <textarea name="mensagem" id="mensagem" rows="5"></textarea><br />
+
+        <label for="linguagens">Linguagem web preferida:</label><br />
+        <select name="linguagens" id="linguagens">
+          <option value="html">HTML</option>
+          <option value="css">CSS</option>
+          <option value="javascript">JavaScript</option>
+          <option value="nenhuma">NENHUMA</option>
+        </select>
+        <br />
+
+        <br />
+        <button type="submit" onclick="alert('ME CLICOU!')">Enviar</button>
+      </form>
+    </section>
+
+    <a href="index.html">Início</a>
   </body>
 </html>
