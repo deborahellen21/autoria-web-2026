@@ -1,119 +1,123 @@
 <!doctype html>
 <html lang="pt-br">
+  <!-- reúne metadados, título, links externos e configurações. -->
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Autoria Web</title>
   </head>
-  <!--Contém o conteúdo visível da página -->
-
+  <!-- contém o conteúdo visível da página -->
   <body>
-    <!--Header: define o cabeçalho. Exibe logo, títul, nav... -->
+    <!-- <header>: define o cabeçalho. Exibe logo, título, nav... -->
     <header>
       <h1>Eu amei Autoria Web!</h1>
-      <h2>Eu amei Autoria Web!</h2>
+      <!-- <h2>Eu amei Autoria Web!</h2>
       <h3>Eu amei Autoria Web!</h3>
       <h4>Eu amei Autoria Web!</h4>
       <h5>Eu amei Autoria Web!</h5>
-      <h6>Eu amei Autoria Web!</h6>
+      <h6>Eu amei Autoria Web!</h6> -->
 
-      <header>
-        <nav>
-          <ul>
-            <li>
-              <a href="#">Início</a>
-            </li>
-            <li>
-              <a href="sobre.html">Sobre</a>
-            </li>
-            <li>
-              <a href="https://github.com/deborahellen21/autoria-web-2026"
-                >github</a
-              >
-            </li>
-          </ul>
-        </nav>
-      </header>
+      <nav>
+        <ul>
+          <li>
+            <a href="#">Início</a>
+          </li>
+          <li>
+            <a href="sobre.html">Sobre</a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/deborahellen21/autoria-web-2026"
+              target="_blank"
+              >GitHub</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-      <img src="assets/imgs/foto.jpg" alt="" />
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur quod
-        quia explicabo perspiciatis, odio voluptate esse error tempora
-        voluptatum optio doloremque consequatur sit. Quis labore temporibus
-        tempora, quae totam ad?
-        <br />
-      </p>
-      <main>
-        <section>
-          <h1>Seção 1</h1>
-          <img scr="assets/imgs/foto.jpg" alt="" />
+    <br />
+
+    <!-- 
+     <main>: delimita o conteúdo principal da página, único por documento, 
+      facilitando navegação por leitores de tela
+     -->
+    <principal>
+      <!--
+        <seção>: seção temática do documento, geralmente com um título próprio
+      -->
+      <section>
+        <h2>Seção 1</h2>
+
+        <!-- 
+        <div>: contêiner genérico em bloco, sem significado semântico próprio, 
+          útil para agrupamento quando nenhum dos elementos semânticos se aplica.
+         -->
+        <div>
+          <img src="assets/imgs/foto.jpg" alt="bob esponja" />
+        </div>
+
+        <!-- 
+          <article>: bloco de conteúdo independente e reutilizável 
+          (post de blog, notícia, card de produto, comentário), 
+          que faz sentido fora do contexto imediato. 
+        -->
+        <artigo>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-            dolorem porro necessitatibus enim beatae quo in aliquam fugit
-            consequuntur. Eligendi earum voluptas cum distinctio quo, temporibus
-            iure molestias perferendis non.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum
+            molestias fuga deserunt, totam nobis sed ut dolore eaque libero
+            explicabo repellendus minima impedit eius blanditiis quaerat tempora
+            fugit eum rerum!
           </p>
+        </artigo>
+      </section>
+      <br />
 
-          <section>
-            <h2>Envie uma mensagem</h2>
-            <form action="#">
-              <label for="Nome">Nome completo:</label><br />
-              <input type="text" id="Nome" name="Nome" /><br />
+      <section>
+        <h2>Seção 2</h2>
+        <img src="assets/imgs/neymar.jpg" alt="neymar" />
 
-              <label for="senha">Senha</label><br />
-              <input type="passaword" /> name="senha" id="senha"><br />
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, odit
+          qui! Fugit sed ullam non velit quidem nam natus, quo voluptatum
+          consectetur at? Inventore ab pariatur mollitia eveniet perspiciatis.
+          Deserunt.
+        </p>
+      </section>
+      <br />
 
-              <label for="copa">Brasil vai ser campeão?</label><br />
-              <input type="radio" id="sim" name="sim" />
-              <label for="sim">Sim</label>
-              <input type="radio" id="nao" name="nao" />
-              <label for="nao">Não</label><br />
-
-              <p>Selecione suas favoritas do ano de 2026</p>
-
-              <label for="mensagem">Mensagem</label><br />
-              <textarea name="mensagem id=" mensagem rows="5"></textarea><br />
-
-              <label for="linguagens">Linguagem web preferida</label><br />
-              <select name="" id="">
-                <option value="html">HTML</option>
-                <option value="css">CSS</option>
-                <option value="javascript">JavaScript</option>
-                <option value="nenhuma">Nenhuma</option>
-              </select>
-              ><br />
-            </form>
-          </section>
-        </section>
-        <br />
-        />
-
-        <img src="https://github.com/deborahellen21.png" alt="Avatar Github" />
-        <br />
-
+      <section>
+        <h2>Seção 3</h2>
+        <img src="assets/imgs/avatar do github.png" alt="Avatar GitHub" />
+        <p>Dicas para alcançar os seus objetivos:</p>
         <ul>
           <li>Foco</li>
           <li>Força</li>
           <li>Fé</li>
         </ul>
-        <p>Deus é bom</p>
+      </section>
+      <br />
 
+      <section>
+        <h2>Seção 4</h2>
+        <img src="assets/imgs/homem aranha png.jpg" alt="homem aranha" />
         <p>O que fazer quando chegar no lab?</p>
-        <li>Ligar o PC</li>
-        <li>Iniciar a VM no Github Codespaces</li>
-        <li>Prestar atenção no professor</li>
-        <ul>
-          <footer>
-            <h3>IFRN Campus Macau</h3>
-            <p>Desenvolvimento por Débora Hellen</p>
-            <footer>
-              <body>
-                <html></html>
-              </body>
-            </footer>
-          </footer>
-        </ul>
-      </main>
-    </header>
+        <ol>
+          <li>Ligar o PC</li>
+          <li>Iniciar a VM no Github Codespaces</li>
+          <li>Prestar atenção no professor</li>
+        </ol>
+      </section>
+      <br />
+
+      <!-- 
+      <footer>: rodapé da página ou de uma seção, com informações de autoria, 
+      direitos, links secundários, contatos, etc. 
+    -->
+      <footer>
+        <h3>IFRN - Campus Macau</h3>
+        <p>Desenvolvido por Débora Hellen</p>
+      </footer>
+    </principal>
   </body>
 </html>
