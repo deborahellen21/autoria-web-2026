@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="pt-BR"></html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Copa do Mundo</title>
+</head>
+
+<body>
+  <h1>Cadastro de Torcedores - Copa do Mundo 2026</h1>
+  <p>Preencha o formulário para participar do evento da Copa do Mundo 2026.</p>
+
+  <form>
+    <label for="nome">Nome completo:</label><br />
+    <input
+      type="text"
+      id="nome"
+      name="nome"
+      placeholder="Digite seu nome"
+    /><br /><br />
+
+    <label for="senha">Senha de acesso:</label><br /><br />
+    <input
+      type="password"
+      id="senha"
+      name="senha"
+      placeholder="Digite sua senha"
+    /><br /><br />
+
+    <label for="selecao">Seleção favorita:</label><br /><br />
+    <select name="selecao" id="selecao">
+      <option>Selecione uma seleção</option>
+      <option>Brasil</option>
+      <option>Argentina</option>
+      <option>França</option>
+      <option>Alemanha</option>
+      <option>Portugal</option>
+      <option>Espanha</option>
+    </select>
+
+    <br /><br />
+
+    <p>Turno para assistir os jogos:</p>
+
+    <input type="radio" id="manha" name="turno" />
+    <label for="manha">Manhã</label>
+
+    <input type="radio" id="tarde" name="turno" />
+    <label for="tarde">Tarde</label>
+
+    <input type="radio" id="noite" name="turno" />
+    <label for="noite">Noite</label>
+
+    <br /><br />
+
+    <p>Competições de interesse:</p>
+
+    <input type="checkbox" id="fasegrupos" />
+    <label for="fasegrupos">Fase de Grupos</label>
+
+    <input type="checkbox" id="oitavas" />
+    <label for="oitavas">Oitavas de Final</label>
+
+    <input type="checkbox" id="semifinal" />
+    <label for="semifinal">Semifinal</label>
+
+    <input type="checkbox" id="final" />
+    <label for="final">Final</label>
+
+    <br /><br />
+
+    <label for="obs">Observações</label><br />
+
+    <textarea name="obs" id="obs" rows="5" cols="50"></textarea>
+
+    <br /><br />
+
+    <button>Enviar inscrição</button>
+  </form>
+
+  <hr />
+
+  <h2>Torcedores já cadastrados</h2>
+
+  <table border="1">
+    <tr>
+      <th>Nome</th>
+      <th>Seleção</th>
+      <th>Turno</th>
+      <th>Status</th>
+    </tr>
+
+    <tr>
+      <td>Maria Silva</td>
+      <td>Brasil</td>
+      <td>Noite</td>
+      <td>Confirmado</td>
+    </tr>
+
+    <tr>
+      <td>João Pedro</td>
+      <td>Argentina</td>
+      <td>Tarde</td>
+      <td>Pendente</td>
+    </tr>
+
+    <tr>
+      <td>Ana Santos</td>
+      <td>França</td>
+      <td>Manhã</td>
+      <td>Confirmado</td>
+    </tr>
+
+    <tr>
+      <td>Lucas Oliveira</td>
+      <td>Portugal</td>
+      <td>Noite</td>
+      <td>Em análise</td>
+    </tr>
+
+    <tr>
+      <td>Lorena Queiroz</td>
+      <td>Espanha</td>
+      <td>Tarde</td>
+      <td>Confirmado</td>
+    </tr>
+  </table>
+</body>
