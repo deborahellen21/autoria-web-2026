@@ -19,9 +19,9 @@
       <table>
         <thead>
           <tr>
-            <th>rowspan="2">Disciplina</th>
-            <th>colspan="4">Aulas semanais por período</th>
-            <th>colspan="2">Carga horária</th>
+            <th rowspan="2">Disciplina</th>
+            <th colspan="4">Aulas semanais por período</th>
+            <th colspan="2">Carga horária</th>
           </tr>
           <tr>
             <th>1</th>
@@ -32,6 +32,7 @@
             <th>Hora/aula</th>
           </tr>
         </thead>
+        <tbody></tbody>
       </table>
     </section>
 
@@ -44,130 +45,138 @@
             <th>Seleção</th>
             <th>Pontos</th>
             <th>Jogos</th>
-            <th>Saída de Gols</th>
+            <th>Saldo de Gols</th>
           </tr>
-          <table>
-            <tbody>
-              <tr>
-                <td>1°</td>
-                <td>Escócia</td>
-                <td>3</td>
-                <td>1</td>
-                <td>+1</td>
-              </tr>
-
-              <tr>
-                <td>2°</td>
-                <td>Marrocos</td>
-                <td>1</td>
-                <td>1</td>
-                <td>0</td>
-              </tr>
-
-              <tr>
-                <td>3°</td>
-                <td>Brasil</td>
-                <td>1</td>
-                <td>1</td>
-                <td>0</td>
-              </tr>
-
-              <tr>
-                <td>4°</td>
-                <td>Haiti</td>
-                <td>0</td>
-                <td>1</td>
-                <td>-1</td>
-              </tr>
-            </tbody>
-          </table>
-
-          <section>
-            <h2>Técnico em Informática - 1º ano</h2>
-            <table>
-              <thead>
-                <!-- tr - table row - adicionar uma linha -->
-                <tr>
-                  <!-- th - table header - rótulo da coluna -->
-                  <th>Disciplina</th>
-                  <th>Carga Hóraria (h)</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <!--td - table data - valor da célula-->
-                  <td>Autoria Web</td>
-                  <td>60</td>
-                </tr>
-              </tbody>
-            </table>
-          </section>
-
-          <section>
-            <h2>Envie uma mensagem</h2>
-            <form action="#">
-              <label for="nome">Nome completo:</label><br />
-              <input type="text" id="nome" name="nome" /><br />
-
-              <label for="senha">Senha:</label><br />
-              <input type="password" name="senha" id="senha" /><br />
-
-              <!-- Botões de rádio -->
-              <p>Brasil vai ser campeão?</p>
-
-              <input type="radio" id="sim" name="brasil" value="Sim" />
-              <label for="sim">Sim</label>
-              <input type="radio" id="nao" name="brasil" value="Não" />
-              <label for="nao">Não</label>
-              <br />
-
-              <!-- Caixas de seleção -->
-              <p>Selecione as seleções favoritas ao título de 2026:</p>
-
-              <input type="checkbox" id="brasil" name="brasil" value="Brasil" />
-              <label for="brasil">Brasil</label>
-              <input type="checkbox" id="franca" name="franca" value="França" />
-              <label for="franca">França</label>
-              <input
-                type="checkbox"
-                id="alemanha"
-                name="alemanha"
-                value="Alemanha"
-              />
-              <label for="alemanha">Alemanha</label>
-              <input
-                type="checkbox"
-                id="ned"
-                name="ned"
-                value="Países Baixos"
-              />
-              <label for="ned">Países Baixos</label>
-
-              <br />
-
-              <!-- Área de texto -->
-              <label for="mensagem">Mensagem:</label><br />
-              <textarea name="mensagem" id="mensagem" rows="5"></textarea><br />
-
-              <label for="linguagens">Linguagem web preferida:</label><br />
-              <select name="linguagens" id="linguagens">
-                <option value="html">HTML</option>
-                <option value="css">CSS</option>
-                <option value="javascript">JavaScript</option>
-                <option value="nenhuma">NENHUMA</option>
-              </select>
-              <br />
-
-              <br />
-              <button type="submit" onclick="alert('ME CLICOU!')">
-                Enviar
-              </button>
-            </form>
-          </section>
-
-          <a href="index.html">Início</a>
         </thead>
+        <tbody>
+          <tr>
+            <td>2°</td>
+            <td>Marrocos</td>
+            <td>1</td>
+            <td>1</td>
+            <td>0</td>
+          </tr>
+          <tr>
+          <td>2º</td>
+            <td>Brasil</td>
+            <td>1</td>
+            <td>1</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>3º</td>
+            <td>Marrocos</td>
+            <td>1</td>
+            <td>1</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>4º</td>
+            <td>Haiti</td>
+            <td>0</td>
+            <td>1</td>
+            <td>-1</td>
+          </tr>
+        </tbody>
       </table>
     </section>
+
+      <section>
+      <h2>Técnico em Informática - 1º ano</h2>
+      <table>
+        <thead>
+          <!-- tr - table row - adicionar uma linha -->
+          <tr>
+            <!-- th - table header - rótulo da coluna -->
+            <th>Disciplina</th>
+            <th>Carga Horária (h)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+         <!-- td - table data - valor da célula -->
+            <td>Autoria Web</td>
+            <td>60</td>
+          </tr>
+          <tr>
+            <!-- td - table data - valor da célula -->
+            <td>Introdução a Programação</td>
+            <td>120</td>
+          </tr>
+          <tr>
+            <!-- td - table data - valor da célula -->
+            <td>Educação em Tecnologias Digitais</td>
+            <td>60</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Envie uma mensagem</h2>
+      <form action="#">
+        <label for="nome">Nome completo:</label><br />
+        <input
+          type="text"
+          id="nome"
+          name="nome"
+          placeholder="Digite seu nome..."
+        /><br />
+
+        <label for="senha">Senha:</label><br />
+        <input
+          type="password"
+          name="senha"
+          id="senha"
+          placeholder="Digite sua senha..."
+        /><br />
+
+       <!-- Botões de rádio -->
+        <p>Brasil vai ser campeão?</p>
+
+        <input type="radio" id="sim" name="brasil" value="Sim" />
+        <label for="sim">Sim</label>
+        <input type="radio" id="nao" name="brasil" value="Não" />
+        <label for="nao">Não</label>
+        <br />
+
+        <!-- Caixas de seleção -->
+        <p>Selecione as seleções favoritas ao título de 2026:</p>
+
+        <input type="checkbox" id="brasil" name="brasil" value="Brasil" />
+        <label for="brasil">Brasil</label>
+        <input type="checkbox" id="franca" name="franca" value="França" />
+        <label for="franca">França</label>
+        <input type="checkbox" id="alemanha" name="alemanha" value="Alemanha" />
+        <label for="alemanha">Alemanha</label>
+        <input type="checkbox" id="ned" name="ned" value="Países Baixos" />
+        <label for="ned">Países Baixos</label>
+        <br />
+
+        <!-- Área de texto -->
+        <label for="mensagem">Mensagem:</label><br />
+        <textarea name="mensagem" id="mensagem" rows="5"></textarea><br />
+
+        <label for="linguagens">Linguagem web preferida:</label><br />
+        <select name="linguagens" id="linguagens">
+          <option value="html">HTML</option>
+          <option value="css">CSS</option>
+          <option value="javascript">JavaScript</option>
+          <option value="nenhuma">NENHUMA</option>
+        </select>
+        <br />
+
+         <br />
+        <button type="submit" onclick="alert('ME CLICOU!')">Enviar</button>
+      </form>
+    </section>
+
+    <a href="index.html">Início</a>
   </body>
 </html>
+
+
+
+
+
+      
