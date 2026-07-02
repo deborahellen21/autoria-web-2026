@@ -4,14 +4,25 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0" />
   <title>Copa do Mundo</title>
+  <link rel="stylesheet" href="./styles/styles.css" />
+  <style>
+    body {
+      background-color: rgb(169, 169, 170);
+      font-family: Arial, Helvetica, sans-serif;
+      /*  font-family: 'Times New Roman', Times, serif; */
+      /*  font-family: "Courier New", Courier, monospace; */
+    }
+  </style>
 </head>
 
 <body>
-  <h1>Cadastro de Torcedores - Copa do Mundo 2026</h1>
+  <h1 style="color: rgb(7, 122, 36); background-color: rgb(240, 205, 6)">
+    Cadastro de Torcedores - Copa do Mundo 2026
+  </h1>
   <p>Preencha o formulário para participar do evento da Copa do Mundo 2026.</p>
 
   <form>
-    <label for="nome">Nome completo:</label><br />
+    <label for="nome" class="negrito">Nome completo:</label><br />
     <input
       type="text"
       id="nome"
@@ -19,7 +30,7 @@
       placeholder="Digite seu nome"
     /><br /><br />
 
-    <label for="senha">Senha de acesso:</label><br /><br />
+    <label for="senha" class="negrito">Senha de acesso:</label><br /><br />
     <input
       type="password"
       id="senha"
@@ -27,7 +38,7 @@
       placeholder="Digite sua senha"
     /><br /><br />
 
-    <label for="selecao">Seleção favorita:</label><br /><br />
+    <label for="selecao" class="negrito">Seleção favorita:</label><br /><br />
     <select name="selecao" id="selecao">
       <option>Selecione uma seleção</option>
       <option>Brasil</option>
@@ -40,7 +51,7 @@
 
     <br /><br />
 
-    <p>Turno para assistir os jogos:</p>
+    <p class="courier">Turno para assistir os jogos:</p>
 
     <input type="radio" id="manha" name="turno" />
     <label for="manha">Manhã</label>
@@ -53,7 +64,7 @@
 
     <br /><br />
 
-    <p>Competições de interesse:</p>
+    <p class="courier">Competições de interesse:</p>
 
     <input type="checkbox" id="fasegrupos" />
     <label for="fasegrupos">Fase de Grupos</label>
@@ -82,7 +93,7 @@
 
   <h2>Torcedores já cadastrados</h2>
 
-  <table border="1">
+  <table border="1" id="tabela">
     <tr>
       <th>Nome</th>
       <th>Seleção</th>
@@ -125,4 +136,13 @@
       <td>Confirmado</td>
     </tr>
   </table>
+
+  <h2>Destacando parte espcífica de um texto</h2>
+
+  <p>
+    Lorem ipsum <span class="negrito">dolor</span> sit amet consectetur
+    adipisicing elit. Voluptatem atque exercitationem, accusamus expedita
+    reprehenderit, dignissimos tempore eaque iste deleniti, inventore quas aut
+    tenetur quos esse delectus tempora quae dicta accusantium.
+  </p>
 </body>
