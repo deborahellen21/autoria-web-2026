@@ -8,8 +8,16 @@
   --coral: #fe5f55;
 }
 
+/* CSS Reset */
+* {
+  margin: 0; /* Espaçamento externo*/
+  padding: 0; /* Ewspaçamento interno*/
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Quicksand", sans-serif;
+  padding: 50px;
 }
 
 /* Seleção de elemento */
@@ -45,4 +53,88 @@ form button {
   background-color: brown;
 }
 
+/* form input {
+background-color: var(--blue-slate);
+color: var(--sky);
+} */
 
+img {
+  height: 200px; /*Altura */
+  border-radius: 50%; /*Largura */
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+#nav-sections
+  /*Somente para uma determinada parte */
+  /* margin-top: 15px; */
+ 
+
+#nav-sections ul {
+  list-style-type: none;
+}
+
+#nav-sections li {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--sky);
+  background-color: var(--blue-slat);
+  border-radius: 5px;
+}
+
+a:hover {
+  color: var(--coral);
+  box-shadow: 0 0 10px var(--coral);
+}
+
+#nav-links ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--blue-slat);
+  background-color: var(--coral);
+  border-radius: 5px;
+}
+
+a:hover {
+  color: var(--sky);
+  box-shadow: 0 0 10px var(--blue-slat);
+}
+
+.fonte-maior {
+  font-size: 48px;
+}
+
+/* Paleta de cores */
+:root {
+  --azul: #1e3a8a;
+  --azul-claro: #dbeafe;
+  --cinza: #505153;
+  --branco: #ffff;
+  --preto: #222222;
+  --verde: #16a34a;
+}
+
+/* Corpo */
+body {
+  background-color:  var(--cinza);
+  color: var(--preto);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/*Cabeçalho */

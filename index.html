@@ -4,6 +4,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
     <title>Autoria Web</title>
   </head>
   <!-- contém o conteúdo visível da página -->
@@ -17,7 +18,7 @@
       <h5>Eu amei Autoria Web!</h5>
       <h6>Eu amei Autoria Web!</h6> -->
 
-      <nav>
+      <nav id="nav-links">
         <ul>
           <li>
             <a href="#">Início</a>
@@ -34,6 +35,24 @@
           </li>
         </ul>
       </nav>
+
+      
+      <nav id="nav-sections">
+        <ul>
+          <li>
+            <a href="#section1">Seção 1</a>
+          </li>
+          <li>
+            <a href="#section2">Seção 2</a>
+          </li>
+          <li>
+            <a href="#section3">Seção 3</a>
+          </li>
+          <li>
+            <a href="#section4">Seção 4</a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <br />
@@ -46,7 +65,7 @@
       <!--
         <seção>: seção temática do documento, geralmente com um título próprio
       -->
-      <section>
+      <section id="section 1">
         <h2>Seção 1</h2>
 
         <!-- 
@@ -54,7 +73,7 @@
           útil para agrupamento quando nenhum dos elementos semânticos se aplica.
          -->
         <div>
-          <img src="assets/imgs/foto.jpg" alt="bob esponja" />
+          <img src="assets/imgs/foto.jpg" alt="bob esponja" class="avatar" />
         </div>
 
         <!-- 
@@ -73,9 +92,9 @@
       </section>
       <br />
 
-      <section>
+      <section id="section2">
         <h2>Seção 2</h2>
-        <img src="assets/imgs/neymar.jpg" alt="neymar" />
+        <img src="assets/imgs/neymar.jpg" alt="neymar" class="avatar" />
 
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, odit
@@ -86,9 +105,13 @@
       </section>
       <br />
 
-      <section>
+      <section id="section3">
         <h2>Seção 3</h2>
-        <img src="assets/imgs/avatar do github.png" alt="Avatar GitHub" />
+        <img
+          src="assets/imgs/avatar do github.png"
+          alt="Avatar GitHub"
+          class="avatar"
+        />
         <p>Dicas para alcançar os seus objetivos:</p>
         <ul>
           <li>Foco</li>
@@ -98,9 +121,13 @@
       </section>
       <br />
 
-      <section>
+      <section id="section4">
         <h2>Seção 4</h2>
-        <img src="assets/imgs/homem aranha png.jpg" alt="homem aranha" />
+        <img
+          src="assets/imgs/homem aranha png.jpg"
+          alt="homem aranha"
+          class="avatar"
+        />
         <p>O que fazer quando chegar no lab?</p>
         <ol>
           <li>Ligar o PC</li>
