@@ -138,3 +138,80 @@ body {
 }
 
 /*Cabeçalho */
+header {
+  background-color: var(--azul);
+  color: var(--branco);
+  text-align: center;
+  padding: 20px;
+}
+
+/*Rodapé*/
+footer {
+  background-color: var(--preto);
+  color: var(--branco);
+  text-align: center;
+  padding: 15px;
+}
+
+/*Títulos*/
+h1,h2,h3 .titulo-secao {
+  font-family: Georgia, serif; 
+  color: var(--azul);
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+/*Cards*/
+.card-programa {
+  background-color: var(--branco);
+  border: 2px solid var(--azul);
+  border-radius: 10px;
+  padding: 15px;
+  margin: 15px 0;
+  font-size: 15px;
+}
+
+/*IDs*/
+#inicio {
+  background-color: var(--azul-claro);
+  padding: 15px;
+}
+
+#programacao {
+  border-left: 6px solid var(--azul);
+  padding: 15px;
+}
+
+#contato {
+  border-left: 6px solid var(--verde);
+  padding: 15px;
+}
+
+/*Navegação*/
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-rigth: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--branco);
+  background-color: var(--azul);
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+nav:hover {
+  background-color: var(--verde);
+}
