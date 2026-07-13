@@ -116,6 +116,19 @@ a:hover {
 
 .fonte-maior {
   font-size: 48px;
+  background-color: var(--glacous);
+  padding-left: 20px;
+  /*border-width: 10px;
+  border-style: solid;
+  border-color: green;*/
+  border: 10px dotted green;
+}
+
+.teste-espacamento {
+  background-color: var(--coral);
+  padding: 20px 40px;
+  margin-bottom: 100px;
+  border-bottom: 10px solid black;
 }
 
 /* Paleta de cores */
@@ -130,7 +143,7 @@ a:hover {
 
 /* Corpo */
 body {
-  background-color:  var(--cinza);
+  background-color: var(--cinza);
   color: var(--preto);
   font-family: Arial, sans-serif;
   margin: 0;
@@ -154,8 +167,10 @@ footer {
 }
 
 /*Títulos*/
-h1,h2,h3 .titulo-secao {
-  font-family: Georgia, serif; 
+h1,
+h2,
+h3 .titulo-secao {
+  font-family: Georgia, serif;
   color: var(--azul);
 }
 
@@ -215,3 +230,4 @@ nav a {
 nav:hover {
   background-color: var(--verde);
 }
+
