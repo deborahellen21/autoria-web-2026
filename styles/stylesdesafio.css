@@ -1,0 +1,120 @@
+/* ==========================
+   Paleta de cores e fontes
+========================== */
+:root {
+  --cor-fundo: #f4f4f4;
+  --cor-texto: #333333;
+  --cor-header-footer: #1f3c88;
+  --cor-header-texto: #ffffff;
+  --cor-destaque: #ff9800;
+  --cor-card: #ffffff;
+  --cor-borda: #cccccc;
+  --cor-inicio: #e3f2fd;
+  --cor-programacao: #f1f8e9;
+  --cor-contato: #fff3e0;
+  --fonte-corpo: Arial, sans-serif;
+  --fonte-titulo: Georgia, serif;
+}
+
+/* ==========================
+   Estilo geral
+========================== */
+body {
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
+  font-family: var(--fonte-corpo);
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+/* ==========================
+   Header e Footer
+========================== */
+header,
+footer {
+  background-color: var(--cor-header-footer);
+  color: var(--cor-header-texto);
+  padding: 20px;
+  text-align: center;
+}
+
+/* ==========================
+   Títulos
+========================== */
+h1,
+h2,
+.titulo-secao {
+  font-family: var(--fonte-titulo);
+  color: var(--cor-destaque);
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2.2rem;
+}
+
+h2,
+.titulo-secao {
+  font-size: 1.8rem;
+}
+
+/* ==========================
+   Cards dos programas
+========================== */
+.card-programa {
+  background-color: var(--cor-card);
+  border: 1px solid var(--cor-borda);
+  border-radius: 8px;
+  padding: 15px;
+  margin: 15px 0;
+  font-size: 0.95rem;
+}
+
+/* ==========================
+   Seções por ID
+========================== */
+#inicio {
+  background-color: var(--cor-inicio);
+  padding: 20px;
+}
+
+#programacao {
+  background-color: var(--cor-programacao);
+  border-left: 6px solid var(--cor-destaque);
+  padding: 20px;
+}
+
+#contato {
+  background-color: var(--cor-contato);
+  border-left: 6px solid var(--cor-header-footer);
+  padding: 20px;
+}
+
+/* ==========================
+   Navegação
+========================== */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--cor-destaque);
+  font-weight: bold;
+  padding: 8px 12px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  background-color: var(--cor-destaque);
+  color: white;
+  border-radius: 5px;
+}
