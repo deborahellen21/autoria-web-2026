@@ -1,6 +1,20 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corpo */
+body {
+  font-family: "Trebuchet MS", sans-serif;
+  background-color: #f2f2f2;
+  color: #222;
+}
+
 /* Cabeçalho */
 header {
-  background-color: #8b5e3c;
+  background-color: #000;
   color: white;
   text-align: center;
   padding: 20px;
@@ -8,7 +22,7 @@ header {
 
 /* Menu */
 nav {
-  background-color: #a67c52;
+  background-color: #1a1a1a;
 }
 
 nav ul {
@@ -25,49 +39,46 @@ nav li {
 nav a {
   color: white;
   text-decoration: none;
-  padding: 10px 15px;
+  padding: 10px 20px;
   margin: 0 8px;
-  border: 1px solid white;
-  border-radius: 50px;
-}
-
-nav a:hover {
-  background-color: #8b5e3c;
-  transition: 0.3s;
+  border: 2px solid white;
+  border-radius: 30px;
 }
 
 /* Seções */
 #inicio,
 #programacao,
 #contato {
+  background-color: white;
   padding: 20px;
   margin: 20px 0;
-  background-color: #f5ebdd;
+  border-radius: 20px;
 }
 
-/* Títulos das seções */
+/* Títulos */
 .titulo-secao {
   padding-top: 10px;
   padding-bottom: 10px;
   margin-top: 20px;
   margin-bottom: 20px;
-  border-bottom: 3px solid #a67c52;
-  color: #8b5e3c;
+  border-bottom: 3px solid black;
+  color: black;
 }
 
-/* Cartões */
+/* Cards */
 .card-programa {
-  border: 2px solid #a67c52;
+  background-color: #f8f8f8;
+  border: 2px solid black;
   padding: 15px 20px;
   margin-bottom: 20px;
-  border-radius: 30px;
-  background-color: #f0e2d2;
+  border-radius: 20px;
 }
 
 /* Rodapé */
 footer {
-  background-color: #8b5e3c;
+  background-color: #000;
   color: white;
   text-align: center;
   padding: 15px;
+  margin-top: 20px;
 }
